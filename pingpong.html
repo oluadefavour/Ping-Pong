@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PP GAMER</title>
+    <link href="pingpong.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="game-container">
+        <!-- <img id="pic" src="pong1.jpg" alt="PING_PONG BACKGROUND"> -->
+        <h2 class="pong-heading">PING<br>PONG<br>GAME</h2>
+        <h1> <span id="p1display">0</span><br>
+            <span id="vs">SERVING</span><br>
+            <span id="p2display">0</span>
+        </h1>
+        <div class="play">
+            <label for="playto"> <span class="plt">Playing To:</span></label>
+            <select name="" id="playto">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+        </div>
+        <div class="instr-container">
+            <button class="instr">SELECT PLAYER</button>
+        </div>
+
+
+        <div id="controls">
+            <button id="p1button">Player 1</button>
+            <button id="p2button">Player 2</button>
+            <button id="reset">Reset</button>
+        </div>
+
+    </div>
+    <script src="pingpong.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+*{
+    margin: auto;
+    
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.game-container {
+
+    border: solid rgb(255, 255, 0);
+    height:40%;
+    width: 60%;
+    /* margin-top: 60px; */
+    border-style: dotted ;
+    border-radius: 20px;
+    border-width: 8px;
+
+}
+
+.pong-heading {
+
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 255);
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    padding-top: 20px;
+
+}
+
+#pic {
+    width: 200px;
+}
+
+#p1display {
+
+    font-size: 110px;
+    color: rgb(255, 0, 0);
+    margin-left: 30px;
+}
+
+#p2display {
+
+    font-size:110px;
+    color: rgb(255, 0, 0);
+    margin-left: 30px;
+
+}
+
+.play {
+
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.plt{
+
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+        font-size: 30px;
+        border: solid;
+        border-radius: 20px;
+
+        width: 140px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        background-color: white;
+}
+
+#playto {
+
+    display: flex;
+    justify-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid gold;
+    border-radius: 30px;
+    border-width: 10px;
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+#playto:hover{
+
+    color: green;
+
+}
+
+#vs {
+
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+
+
+
+
+}
+.instr-container {
+
+    /* border: solid rgb(255, 255, 0); */
+    display: flex;
+    justify-content: center;
+    /* border-style: dotted ; */
+    border-radius: 20px;
+    /* border-width: 8px */
+    width: 60%;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.instr{
+
+      
+        font-size: 30px;
+        font-weight: 900;
+        height: 40%;
+        /* width: 60%; */
+        cursor: pointer;
+        background-color: white;
+}
+
+.instr:hover{
+
+    color: greenyellow;
+
+}
+
+#pic {
+
+    width: 50%;
+
+}
+
+
+#controls{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-style: dotted; */
+    /* border-width: 8px; */
+    /* width: 40%; */
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+#p1button {
+            width: 300px;
+            border-width: 5px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bolder;
+            /* margin: 10px; */
+            /* margin-left: 20px; */
+}
+
+#p2button {
+    width: 300px;
+    border-width: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* margin: 10px; */
+    /* margin-left: 20px; */
+}
+
+#reset {
+    width: 300px;
+    border-width: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* margin: 10px; */
+    /* margin-left: 20px; */
+}
+
+@media only screen and (max-width: 500px) {
+        
+        #controls {
+            flex-direction: column;
+        }
+
+        #p1button {
+            width: 120px;
+            border-width: 5px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bolder;
+            margin: 10px;
+            /* margin-left: 20px; */
+}
+
+        #p2button {
+            width: 120px;
+            border-width: 5px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bolder;
+            margin: 10px;
+            /* margin-left: 20px; */
+        }
+
+        #reset {
+            width: 120px;
+            border-width: 5px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bolder;
+            margin: 10px;
+            /* margin-left: 20px; */
+        }
+
+        #vs {
+
+            font-size: 30px;
+            
+
+        
+        
+        
+        
+        
+        }
+}
+
+
+@media only screen and (max-width: 250px) {
+   
+    #vs {
+        font-size: 20px;
+    }
+
+    .plt{
+
+        font-size: 20px;
+       
+}
+
+
+.instr{
+
+      
+    font-size: 20px;
+    padding: 0% .5%;
+}
+
+.game-container {
+
+    padding: 15% 15%;
+
+}
+}
